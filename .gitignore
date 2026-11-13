@@ -1,0 +1,13 @@
+# دیتابیس و داده هر استقرار
+data/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+
+# پیکربندی محلی (شامل کلیدها)
+.env
+
+# سیستم
+node_modules/
+*.log
+.DS_Store

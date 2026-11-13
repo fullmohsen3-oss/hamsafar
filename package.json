@@ -1,0 +1,19 @@
+{
+  "name": "hamsafar",
+  "version": "1.0.0",
+  "description": "هم‌سفر — سامانه جامع گردشگری چند-نقشه‌ای با استقرار مستقل برای هر شرکت و زیرساخت API فدراسیون برای همکاری بلادرنگ بین شرکت‌ها",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js --dev",
+    "seed": "node scripts/seed.js --reset",
+    "test": "node test/run.js",
+    "test:e2e": "node test/e2e-federation.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "license": "MIT",
+  "private": true
+}
